@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Providing the option to download or view question papers from all the years and branches."
+        android:textSize="20dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:background="#e1e96c13"
+        android:textColor="#e3eeee" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Begin Search"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:id="@+id/button3"
+        android:textAlignment="center"
+        android:drawableLeft="@android:drawable/ic_menu_zoom"
+        android:drawablePadding="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="50dp"
+        android:elevation="20dp"
+        android:layout_marginBottom="131dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <!---   <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+           android:id="@+id/grid_view"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:numColumns="auto_fit"
+           android:gravity="center"
+           android:stretchMode="columnWidth"
+           android:background="#000000">
+       </GridView>-->
+
+</RelativeLayout>

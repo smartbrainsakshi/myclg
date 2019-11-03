@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/contacts"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_query"
+            android:icon="@drawable/books"
+            android:title="Book Store" />
+       </group>
+
+
+  <group android:checkableBehavior="none">
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/userfemale"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_add_black_24dp"
+                android:title="Notes" />
+            <item
+                android:id="@+id/nav_upload"
+                android:icon="@drawable/ic_vertical_align_top_black_24dp"
+                android:title="Upload" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+   </group>
+</menu>

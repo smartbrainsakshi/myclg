@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:card_view="http://schemas.android.com/tools"
+            android:padding="16dp"
+            android:id="@+id/cards"
+            android:layout_below="@+id/textView"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cv"
+
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+
+                card_view:cardCornerRadius="6dp"
+                >
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:background="#2D566B">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_photo"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/chemical"
+                        android:layout_marginRight="16dp"
+                        android:layout_alignBottom="@+id/person_age" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name"
+                        android:layout_toRightOf="@+id/person_photo"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:text="Chemical Engineering"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age"
+                        android:layout_toRightOf="@+id/person_photo"
+                        android:layout_below="@+id/person_name"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cv1"
+
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+
+                card_view:cardCornerRadius="6dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:background="#861E6A">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_photo1"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/computer"
+                        android:layout_marginRight="16dp"
+                        android:layout_alignBottom="@+id/person_name1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name1"
+                        android:layout_toRightOf="@+id/person_photo1"
+                        android:layout_alignParentTop="true"
+                        android:text="Computer Science and Engineering"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age1"
+                        android:layout_toRightOf="@+id/person_photo1"
+                        android:layout_below="@+id/person_name1"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cv2"
+
+                card_view:cardCornerRadius="6dp"
+
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:background="#227585">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_photo2"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/civil"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:layout_alignBottom="@+id/person_age2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Civil Engineering"
+                        android:id="@+id/person_name2"
+                        android:layout_toRightOf="@+id/person_photo2"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age2"
+                        android:layout_toRightOf="@+id/person_photo2"
+                        android:layout_below="@+id/person_name2"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cv3"
+
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+
+                card_view:cardCornerRadius="6dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:background="#E91E63">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_photo3"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/electrical"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:layout_alignBottom="@+id/person_age3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name3"
+                        android:layout_toRightOf="@+id/person_photo3"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:text="Electrical Engineering"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age3"
+                        android:layout_toRightOf="@+id/person_photo3"
+                        android:layout_below="@+id/person_name3"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cv4"
+
+                card_view:cardCornerRadius="6dp"
+
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:background="#607D8B">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_photo4"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/electronics"
+                        android:layout_marginRight="16dp"
+                        android:layout_above="@+id/person_age4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Electronics and Communication Engineering"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name4"
+                        android:layout_toRightOf="@+id/person_photo4"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age4"
+                        android:layout_toRightOf="@+id/person_photo4"
+                        android:layout_below="@+id/person_name4"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cv5"
+                app:cardPreventCornerOverlap="false"
+
+                card_view:cardCornerRadius="6dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:background="#d73f0e">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_photo5"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/mechanical1"
+                        android:layout_alignBottom="@+id/person_age5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name5"
+                        android:layout_toRightOf="@+id/person_photo5"
+                        android:text="Mechanical Engineering"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age5"
+                        android:layout_toRightOf="@+id/person_photo5"
+                        android:layout_below="@+id/person_name5"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

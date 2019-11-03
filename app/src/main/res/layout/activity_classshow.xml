@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#0f2341"
+        tools:context="com.example.sakshipc.profilemain.paper">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_marginTop="50dp"
+            android:textColor="#ffffff"
+            android:text="Search For Notes"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="38dp"
+            android:layout_alignParentTop="true"
+
+            android:layout_above="@+id/spinner2"
+
+            android:layout_alignParentStart="true"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/spinner2"
+            android:paddingTop="24dp"
+            android:background="@drawable/statusbox"
+            android:textColor="#ffffff"
+            android:paddingLeft="24dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:paddingRight="24dp"
+            android:layout_above="@+id/spinner3"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/spinner1"
+            android:textAlignment="center"
+            android:background="@drawable/statusbox"
+            android:gravity="center"
+            android:paddingTop="24dp"
+
+            android:textColor="#ffffff"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_above="@+id/spinner2"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/spinner3"
+            android:paddingTop="24dp"
+            android:textAlignment="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:gravity="center"
+            android:background="@drawable/statusbox"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/spinner4"
+            android:gravity="center"
+            android:paddingTop="24dp"
+            android:background="@drawable/statusbox"
+            android:paddingLeft="24dp"
+            android:textAlignment="center"
+            android:paddingRight="24dp"
+            android:layout_below="@+id/spinner3"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:id="@+id/imageView" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/design"
+            android:text="get "
+
+            android:id="@+id/button4"
+            android:layout_below="@+id/spinner4"
+            android:layout_centerHorizontal="true" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

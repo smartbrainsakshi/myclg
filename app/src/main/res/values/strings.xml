@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">myCLG</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="psd">Enter the new password</string>
+    <string name="mail">Enter the new mail</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Select Year</item>
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+    <string-array name="Branch">
+        <item>ComputerScience andEngineering</item>
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_books">Books</string>
+    <string name="title_activity_syllabusshowthird">syllabusshowthird</string>
+
+
+    <!-- intro sliders -->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">my FEEDS</string>
+    <string name="slide_1_desc">Know and Post news of college!</string>
+
+    <string name="slide_2_title">my BOOKS</string>
+    <string name="slide_2_desc">Download books as per your need!</string>
+
+    <string name="slide_3_title">my DEPARTMENT</string>
+    <string name="slide_3_desc">Providing gallery for Time-Table, Syllabus and Question Papers!</string>
+
+    <string name="slide_4_title">my FACULTIES</string>
+    <string name="slide_4_desc">Contact list of faculties department wise!</string>
+
+    <string name="play_again_desc">myCLG </string>
+    <string name="play_again">Play Again</string>
+    <string name="spc">Select Post Category</string>
+    <string name="drawer_open" />
+    <string name="drawer_close" />
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-5112744772970179/7447716247</string>
+    <string name="interstitial_ad_unit_id">	ca-app-pub-5112744772970179/8903357041</string>
+
+
+    <string name="backdrop_title">eBooks</string>
+    <string name="backdrop_subtitle">For all the Brances</string>
+    <string name="title_activity_selectstu1">selectstu1</string>
+</resources>
